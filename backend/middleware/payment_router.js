@@ -1,6 +1,6 @@
 import { initializeApp, applicationDefault, cert } from 'firebase-admin/app';
 import { getFirestore, Timestamp, FieldValue, Filter } from 'firebase-admin/firestore';
-import firebaseAccountCredentials from './payment-gateway.json' assert { type: "json" }
+// import firebaseAccountCredentials from './payment-gateway.json' assert { type: "json" }
 import express from 'express';
 import ntru from 'ntru-legacy';
 
@@ -78,7 +78,7 @@ function initFirebase(){
     if(gdb){
         return gdb;
     }
-const serviceAccount = firebaseAccountCredentials
+const serviceAccount = ""
 
 initializeApp({
   credential: cert(serviceAccount)
