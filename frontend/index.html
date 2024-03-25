@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        <script src="javascript/main.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+        <script src="https://kit.fontawesome.com/79d4e50fcd.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div class="primary-container">
+            <div class="payment-container">
+                    <div class="payment-header" id="payment-header">
+                        <span>Buy Courses</span>
+                        <div style="width: 100%;"></div>
+                        <span style="font-size: 30px;color: white;">X</span>
+                    </div>
+               
+                <div class="payment-content">
+                    <div id="payment-login-content">
+                        <div class="product-explain-content">
+                            <div class="height-100"></div>
+                            <span style="font-size: 25px;margin-bottom: 10px;"><b>T shirt</b></span>
+                            <span class="secondary-span">Total Amount</span>
+                            <span><b style="font-size: 20px;">₹ 1</b></span>
+                            <div class="height-100"></div>
+                            <span style="font-size: 10px;display: flex; justify-content: center;align-items: center;"><i class="fa-solid fa-lock" style="
+                            margin: 0px 5px;
+                            color: white;"></i>Secured </span>
+                        </div>
+                        <div class="login-form">
+                            <h5><i class="fa-regular fa-user" style="margin-right: 5px;"></i>Contact Details</h5>
+                            <div class="phone-number-input">
+                                <p class="country-code"><b>+91</b></p>
+                                <input type="number" placeholder="phone number">
+                            </div>
+                        </div>
+                    </div>     
+                    <div id="payment-card-option">
+                        <h4>Cards, UPI's & More</h4>
+                        <div class="card-options-container" onclick="paymentCardOptionClicked()">
+                            <div class="single-card-option">
+                                <img src="assets/credit-card.png" height="20px">
+                                <div class="single-card-option-content">
+                                    <span class="">Card<span>
+                                        <br>
+                                    <span class="secondary-span">Visa, MasterCard, Rupay & More</span>
+                                </div>
+                            </div>
+                            <div class="single-card-option">
+                                <img src="assets/upi.png" height="20px">
+                                <div class="single-card-option-content">
+                                    <span class="">UPI / QR<span>
+                                        <br>
+                                    <div class="row">
+                                        <img src="assets/upi-providers.png" >
+                                        <span class="secondary-span"> & More</span>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="payment-card-form-content">
+                        <h4>Add New Card</h4>
+                        <form  class="card-form">
+                            <div class="row">
+                                <input type="number" placeholder="Card Number" name="card">
+                                <input type="number" placeholder="Expiry" name="expiry">
+                            </div>
+                            <div class="row">
+                                <input type="text" placeholder="card holder's name" name="name">
+                                <input type="number" placeholder="CVV" name="cvv">
+                            </div>
+                            <div class="">
+                                <input type="checkbox">
+                                <span>Save card for future payments</span>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="payment-success" >
+                        <br>
+                        <img src="https://cdn-icons-png.freepik.com/512/5610/5610944.png" height="40px">
+                        <!-- <br> -->
+                        <h2>Payment Success</h2>
+                        <!-- <br> -->
+                        <p>Your Order have been successfully placed with the merchant, you will soon receive a success mail!</p>
+                        <!-- <br> -->
+
+                    </div>
+                    <div id="payment-loading-container">
+                        <p class="secondary-span">Looking for saved cards associated with +911234567890</p>
+                        <img src="assets/loading.gif" height="30px" alt="">
+                    </div>
+                </div>
+                <div class="payment-footer">
+                    <div class="proceed-button-container" id="proceed-button-container" >
+                        <button type="submit" class="pay-now-button" id="proceed-button">Proceed</button>
+                        
+                    </div>
+                    <div class="pay-now-button-container" id="pay-now-button-container" style="display: flex;flex-flow: row;">
+
+                    <div class="price-details">
+                        <span class="price-text">₹1</span>
+                        <span class="secondary-span">View Details</span>
+                    </div>
+                    <div class="pay-now-button-container">
+                        <button type="submit" class="pay-now-button" onclick="payNowButtonClick()">Pay Now</button>
+                    </div>
+                </div>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

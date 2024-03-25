@@ -1,0 +1,128 @@
+*{
+    font-family: "poppins";
+}
+html{
+    overflow-y: scroll;
+}
+body{
+    margin: 0px;
+
+}
+.left-sidebar{
+    background-color: #2E3345;
+    position: fixed;
+    height: 100%;
+    width:20%;
+    padding: 30px 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.right-content{
+    background-color: #F0F3F4;
+    height: 100%;
+    width: 80%;
+    position: fixed;
+    right: 0;
+    
+}
+
+.whole-page{
+    position: relative
+    ;
+}
+
+.left-navs{
+    margin-top: 35px;
+    width: 100%;
+}
+
+.single-nav{
+    padding: 10px 15px;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.single-nav *{
+    color: #B4B6BC;
+    font-size: 15px;
+}
+
+.single-nav span:hover{
+    color: white;
+}
+
+.single-nav i:hover{
+    color: white;
+}
+
+.single-nav span{
+    margin:0px 8px;
+}
+
+.nav-active{
+    background-color: #000000;
+    border-left: white solid 3px;
+}
+
+.nav-active *{
+    color: white;
+}
+
+.right-header{
+    width: 100%;
+    background-color: white;
+    padding: 12px 20px;
+}
+
+.right-header input{
+    width: 300px;
+    border: none;
+    padding: 5px 15px;
+    background-color: #F3F4F6;
+    border: #C6C6C6 solid 2px;
+    border-radius: 2px;
+}
+.right-header input:active{
+    outline: none;
+}
+
+.transactions-table{
+    margin: 20px 20px;
+    padding: 30px;
+    background-color: white;
+    height: 85%;
+    width: 97%;
+}
+h3{
+    margin: 0px;
+}
+
+#transactions {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+  }
+  
+  #transactions td, #transactions th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #transactions tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #transactions tr:hover {background-color: #ddd;}
+  
+  #transactions th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #96BDF9;
+    color: white;
+  }

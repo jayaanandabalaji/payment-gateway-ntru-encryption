@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "payment-gateway-3cbc0",
+  "private_key_id": "664b4dc87b8dedd62f433042111f65abbdedab87",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDWn8Dg5+Oaq2vH\naBEN2cp/VEOx3v/p5ZnUpaFokzOfkpF+6Thv1iZOXcTJbzPmqJkvGEFTdFGavWUI\nEaK7s5dH5R0qnD1uTw23u+XQrezd3U4yiIzrd00rGyPTkkO8XiU3i38uYdGe6OeF\nYmytpHNx5A3KlZJO9qNs1tEJRM/C0DFp3xOK92SSZK6YtEyB95cAvRqPAgBVWJZS\nD6YBhEBpVG4NnwO+JjQzpLFx1BUDocrlne2BFHjEh7VR1Zh8bD2gE7E245Iylzsw\nbUAoiRJvp2lP+Tei7kiiiJNHOnijb6Xcv9nxYsvwcTzkYxiIZ/ynrcRpA93bTGdC\nhseYZlFfAgMBAAECggEAA51PMbVnvCt/XPC/LTNoVEqUxFQuFCiFck4C15dPDLSw\ni+l7bfg2cK0Os2PB3Le5RwZRarHixaAUPaL+m5UC4o7y/+CGalOCPWWCrHBqQk33\nAltwGWHshc3FSRXMOd4vtjeUIEyOA1RKOoOoLBsYghp9rHE98ScuxmdJVDWALHGu\nVukT7Npv+1hxMoKNGK7PgQ/OOYjKsys0F7UAJoAELHJQE8dYo+72l8RVBKik57Cf\n/h7ATuEEF3citACJpWQZaqKhbppPRHjWWmKeIwQ92Uh8N6geR5pM0+uMSXm5u2pX\nbgZmdkb6Dvb+4BHKWO9jDyGQxH8fdNIBV+Cg0MkMcQKBgQD9L1IpPyegsRE1fNYg\n8qDjt/9Nmm0s+MH9CR2jSlvAodqqMcZuT+lH7H4Wac1p3iVbSjivxjt0f8USrowl\nSr0RG6U+zoTibqZ3lAcP1YU9eWZErliVa86nMM3Xoss6hl3TO9L5fPDY9pOvQu+Q\n7OwcAi89KTDlAJoJ79rJnbSgzwKBgQDZAqvAz/LA+34PyVXj2+0tTfe5+qm7VxGE\ni+//t+UMYH7KAi1qOufBqBQU3yXU/vt8uOGhCgryUlTQI+4Q4mGuio+Zcs/3gVw2\npY45hBfqBTwvyWbChTctTHU0ioudJELannMwJdYKeh/gs17KOIw7IZxc4vxyOsR3\nlZalILjKcQKBgQCRhjJ+XLuFRGE00jUtqOfLG8YVr85SzASMUUIEykekmCNcMdHx\nM+NNIOR0M4oK8NGeADJG7fTciFgY3dTV1niHrdE0IXYFxD3Qe3f3pO25oN6kWWW3\nNMkKFiYqbHrNf8/MCxW/qw2wV0IZuaqDLXqkuqi2Sce9yLPBRGkH+6qHxwKBgQCR\nwIJ8+O3xgbh0f+RpKwBMim5VAi9XvS3t2VMzbF6xhmoB4Z6BF9kqr2n1br7pJOzi\nIwaf86/Qe02tkkRGINY8taGnDX7ynHbD2UQCC19IdYWsDtgu0+xwR0b9KASHYaBp\nVzzEXNU6qjWY5MBIj9xXpsZveKDXU/M64kSQ2b5jcQKBgGgqgzUL1ocoFUBk+fkz\nM/DtlQ/R+XKquTkGQDp7jQqYNt7yScZTSVnYqO1Bd8s2ShZWsNMLVj7BdFcAcv8+\n0xSwWrj1gxrP9TGlQIrB8KypWH5/Foaxyc3np6L4xTNSQzpnUx2NqAmwTVfSXehV\nALMjiptaKW2ComLBb5LJS2Ah\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-q3bo5@payment-gateway-3cbc0.iam.gserviceaccount.com",
+  "client_id": "113653466689714632656",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-q3bo5%40payment-gateway-3cbc0.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

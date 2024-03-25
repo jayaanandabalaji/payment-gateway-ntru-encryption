@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="dashboard-page.css">
+        <script src="https://kit.fontawesome.com/79d4e50fcd.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+        <script src="../javascript/dashboard.js"></script>
+
+    </head>
+    <body>
+       <div class="whole-page">
+        <div class="left-sidebar">
+            <img src="" height="30px">
+            <div class="left-navs">
+                <div class="single-nav">
+                    <i class="fa-solid fa-gauge" ></i>
+                    <span>Home</span>
+                </div>
+                <div class="single-nav nav-active">
+                    <i class="fas fa-money-check"></i>
+                    <span>Transactions</span>
+                </div>
+                <div class="single-nav">
+                    <i class="fas fa-bookmark"></i>                    
+                    <span>Payment Links</span>
+                </div>
+            </div>
+        </div>
+        <div class="right-content">
+            <div class="right-header">
+                <input type="text" placeholder="search payments, products, settings">
+            </div>
+            <div class="transactions-table">
+                <h3>Successful Transactions</h3>
+                <br>
+                <table id="transactions">
+                    <tr>
+                        <th>ID</th>
+                        <th>Time</th>
+                        <th>Amount</th>
+                        <th>Type</th>
+                    </tr>
+                </table>
+            </div>
+            
+        </div>
+       </div> 
+    </body>
+</html>

@@ -1,0 +1,194 @@
+*{
+    --primary-color:#0F61E9;
+    --background-color:#FAFAFA;
+    --grey-secondary-color:#CCCCCC;
+    background-color: var(--background-color);
+    font-family: 'Poppins';
+}
+
+input{
+    padding: 10px;
+    border: grey solid 2px;
+    border-radius: 10px;
+}
+
+input:focus{
+    outline: none;
+    border: var(--primary-color) solid 2px;
+    border-radius: 10px;
+}
+
+input[name="expiry"],input[name="cvv"]{
+    width: 100px;
+}
+
+.row{
+    display: flex;
+    
+}
+
+.card-form .row{
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.primary-container{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-container{
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.payment-container *{
+    background-color: white;
+
+}
+
+
+.payment-header{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px;
+}
+
+.payment-footer{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-content{
+    /* padding: 10px; */
+    height: 420px;
+}
+.price-details{
+    display: flex;
+    flex-flow: column;
+}
+
+.price-text{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.secondary-span{
+    color: grey;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.pay-now-button{
+    width: 200px;
+    padding: 10px;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.single-card-option{
+    display: flex;
+    align-items: center;
+}
+
+.single-card-option-content{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.card-options-container{
+    border: var(--grey-secondary-color) solid 1px;
+    border-radius: 5px;
+    padding: 5px 0px;
+}
+
+.single-card-option{
+    padding: 10px 15px;
+}
+
+.single-card-option:first-child{
+    border-bottom: var(--grey-secondary-color) solid 1px;
+}
+
+#payment-loading-container{
+    margin: 20x 20px;
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.product-explain-content{
+    height: 50%;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 20px 0px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.product-explain-content *{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.height-100{
+    height: 100%;
+}
+
+.login-form{
+    margin: 10px;
+}
+
+.phone-number-input{
+    border: #CCCCCC solid 1px;
+    border-radius: 2px;
+    width: 100%;    
+    display: flex;
+    flex-flow: row;
+}
+
+.country-code{
+    padding: 0px 10px;
+    margin-right: #CCCCCC solid 1px;
+}
+
+.phone-number-input input{
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+#payment-card-option{
+    padding: 10px;
+}
+
+
+#payment-card-form-content{
+    padding: 10px;
+}
+
+#payment-loading-container{
+    padding: 10px;
+}
+
+
+#payment-success{
+    padding: 15px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
